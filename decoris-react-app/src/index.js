@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./components/Youtube/App";
+import App from "./components/widget/App";
 
-ReactDOM.render(<App/>,
+/*ReactDOM.render(<App/>,
   document.getElementById("root")
+);*/
 
+
+ReactDOM.render(<App />,
+  document.getElementById("root")
 );
